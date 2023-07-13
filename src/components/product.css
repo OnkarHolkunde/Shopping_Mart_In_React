@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+ height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5vh;
+    background-color: rgb(87, 85, 85);
+}
+.products{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    position: relative;
+    top: 5vh;
+    background-color: white;
+    
+}
+.products img{
+    width: 90%;
+    height: 20vh;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    
+    background-color: black;
+}
+.total{
+    position: relative;
+    top: 5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text{
+    color: white;
+}
+.btn{
+    background-color: black;
+    color: yellow;
+}
+.cart{
+    width: 50%;
+}
